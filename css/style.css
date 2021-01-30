@@ -1,428 +1,210 @@
 /* reset browser styles */
-
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
-
 table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
-
 figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-
 time, mark, audio, video {
-
 	margin: 0;
-
 	padding: 0;
-
 	border: 0;
-
 	font-size: 100%;
-
 	vertical-align: baseline;
-
 }
-
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-
 	display: block;
-
 }
-
 body {
-
 	line-height: 1.2;
-
 }
-
 ol { 
-
 	padding-left: 1.4em;
-
 	list-style: decimal;
-
 }
-
 ul {
-
 	padding-left: 1.4em;
-
 	list-style: square;
-
 }
-
 table {
-
 	border-collapse: collapse;
-
 	border-spacing: 0;
-
 } 
-
 /* end reset browser styles */
 
-
-
 /* BASIC */
-
-
-
 body
-
 {
-
     background: -webkit-linear-gradient(#90B6A9, #FFFFFF, #90B6A9);
-
     background: -o-linear-gradient(#90B6A9, #FFFFFF, #90B6A9); 
-
     background: -moz-linear-gradient(#90B6A9, #FFFFFF, #90B6A9);
-
     background: linear-gradient(#90B6A9, #FFFFFF, #90B6A9); 
-
 	font-family: "Times New Roman", Times, serif;
-
 }
-
 header
-
 {
-
     width: 960px;
-
     height: 144px;
-
     margin-left: auto;
-
     margin-right: auto;
-
 	background-color: white;
-
     background-image: radial-gradient(#FFFFFF, #FFFF99, #FFFFFF);
-
 }
-
 header img 
-
 {
-
 	height: 144px;
-
     float: left;       
-
 }
-
 header h1
-
 {
-
 	margin-left: 210px;
-
 	padding-top: 40px;
-
 	color: #5B1B0A;
-
 	font-size: 3.1em;
-
 }
-
-
-
 .wrapper
-
 {
-
     width: 960px;
-
     margin-left: auto;
-
     margin-right: auto;
-
     background-color: #FFFFFF;
-
 }
-
 .navline
-
 {
-
     width: 960px;
-
     background-image: radial-gradient(#FFFF99, #2B7422);
-
     float: left;
-
     height: 40px;
-
 }
-
 .navline li
-
 {
-
 	display: inline;
-
 	float: left;
-
 }
-
 .navline li a
-
 {
-
 	display: block;
-
 }
-
-
-
 hr
-
 {
-
 	height:2px;
-
 	border-width:0;
-
 	background-color:#A9532A;
-
 	clear: both;
-
 }
-
 .inside
-
 {
-
     background: linear-gradient(#FFFFB9, #FFFFFF, #FFFFB9);
-
     color: #000000;
-
     font-size: 1.5em;
-
     overflow: hidden; 
-
-//	height: 1200px;
-
 	padding-right: 10px;
-
 }
-
 .inside p 
-
 {
-
     margin: 10px;
-
 	font-style: italic;
-
 	padding-left: 30px;
-
 }
-
 .inside h1
-
 {
-
 	color: #5B1B0A;
-
 	font-size: 1.4em;
-
 	text-align: center;
-
 	padding: 10px;
-
 }
-
 .inside h3
-
 {
-
 	color: #90B6A9;
-
 	font-size: 1.3em;
-
 	padding-top: 25px;
-
 }
-
 .inside img
-
 {
-
 	color: #90B6A9;
-
 	padding: 10px 10px 10px 10px;
-
 	height: 200px;
-
 }
-
 .insideC
-
 {
-
     background-color: transparent;
-
     color: #000000;
-
     padding: 10px;
-
     font-size: 1.5em;
-
     overflow: scroll;
-
     height: 620px;
-
 }
-
 .insideC p 
-
 {
-
     margin: 10px;
-
 }
-
 .insideC h1
-
 {
-
 	color: #90B6A9;
-
 	font-size: 1.5em;
-
 	text-align: center;
-
 	padding: 10px;
-
 }
-
 footer
-
 {
-
     width: 960px;
-
     height: 108px;
-
     margin-left: auto;
-
     margin-right: auto;
-
 	background-image: radial-gradient(#FFFF99, #2B7422);
-
 }
-
 .address
-
 {
-
     font-size: .9em;
-
     color: #A9532A;
-
     font-weight: bold;
-
     line-height: 15px;
-
     text-align: center;
-
     margin-top: 0px;
-
     padding: 15px;
-
 }
-
 nav ul 
-
 {
-
     margin: 0;
-
     padding: 0;
-
     list-style: none;
-
     width: 960px;
-
     text-align: center;
-
 }
-
 nav a 
-
 {
-
     color: #90B6A9;
-
     font-size: 15px;
-
     text-decoration: none;
-
 	width: 180px;
-
     padding: 10px 0 10px 0;
-
     display: block;
-
     margin: 1px;
-
 }
-
 nav a:link 
-
 {
-
     color: #2B7422;
-
     font-weight: bolder;
-
     background-color: #D3D280;
-
 }    
-
 nav a:visited 
-
 {
-
     color: #000000;
-
     font-weight: bold;
-
     background-image: radial-gradient(#D3D280, #FFFF99);
-
 }    
-
 nav a:hover 
-
 {
-
     color: #2B7422;
-
     font-weight: bolder;
-
     background-color: #FFFF99;
-
 }   
-
 .home .homeLink,
-
 .about .aboutLink,
-
 .testing .testingLink,
-
 .scope .scopeLink,
-
 .lab .labLink,
-
 .contract .contractLink,
-
 .technology .technologyLink,
-
 .contact .contactLink {
-
     font-weight: bold;
-
     color: black;
-
     background-image: radial-gradient( #FFFF99, #D3D280, #FFFF99);
-
 }
-
