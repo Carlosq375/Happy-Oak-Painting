@@ -206,10 +206,6 @@ nav a:hover
 .contact .contactLink 
 {
     font-weight: bold;
-<<<<<<< HEAD
-    color: rgb(241, 10, 10);
-=======
     color: rgb(54, 5, 5);
->>>>>>> cabecera
     background-image: radial-gradient( #FFFF99, #D3D280, #FFFF99);
 }
