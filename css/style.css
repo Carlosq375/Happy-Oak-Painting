@@ -203,8 +203,9 @@ nav a:hover
 .lab .labLink,
 .contract .contractLink,
 .technology .technologyLink,
-.contact .contactLink {
+.contact .contactLink 
+{
     font-weight: bold;
-    color: black;
+    color: rgb(54, 5, 5);
     background-image: radial-gradient( #FFFF99, #D3D280, #FFFF99);
 }
